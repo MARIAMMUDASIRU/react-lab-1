@@ -1,4 +1,12 @@
 const data = {
-    heading : "90% off all items!";
-    callToAction : "Everything must go!";
+  heading: "90% off all items!",
+  callToAction: "Everything must go!",
+};
+
+function Promo() {
+  return (
+    <div>
+      <PromoHeading heading={data.heading} callToAction={data.callToAction} />
+    </div>
+  );
 }
