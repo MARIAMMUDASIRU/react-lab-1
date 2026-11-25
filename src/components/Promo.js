@@ -1,3 +1,5 @@
+import PromoHeading from "./PromoHeading";
+
 const data = {
   heading: "90% off all items!",
   callToAction: "Everything must go!",
@@ -10,3 +12,5 @@ function Promo() {
     </div>
   );
 }
+
+export default Promo;
